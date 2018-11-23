@@ -1,0 +1,38 @@
+.OPTION EXPLICIT
+.Set Cabinet=off
+.Set Compress=off
+.Set MaxDiskSize=1213952
+.Set ReservePerCabinetSize=6144
+.Set DiskDirectoryTemplate=".."
+.Set CompressionType=MSZIP
+.Set CompressionLevel=7
+.Set CompressionMemory=21
+.Set CabinetNameTemplate="Colleg*.CAB"
+"Setup.Lst"
+"setup.exe"
+.Set Cabinet=on
+.Set Compress=on
+"College Library Management System.exe"
+"msvbvm60.dll"
+"oleaut32.dll"
+"olepro32.dll"
+"asycfilt.dll"
+"stdole2.tlb"
+"COMCAT.DLL"
+"comctl32.dll"
+"msado20.tlb"
+"MSDBRPTR.DLL"
+"MSSTDFMT.DLL"
+"dao360.dll"
+"MSDATGRD.OCX"
+"MSCOMCTL.OCX"
+"MSMASK32.OCX"
+"COMDLG32.OCX"
+"TABCTL32.OCX"
+"MSDERUN.DLL"
+"OWC10.DLL"
+"MSBIND.DLL"
+"MDAC_TYP.EXE"
+"SETUP1.EXE"
+"VB6STKIT.DLL"
+"ST6UNST.EXE"
